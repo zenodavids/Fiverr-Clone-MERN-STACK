@@ -33,7 +33,12 @@ const connect = async () => {
 
 // Use CORS middleware to allow requests from a specific origin with credentials
 // "'http://localhost:5173'" is the frontend local host domain
-app.use(cors({ origin: 'http://localhost:5173', credentials: true }));
+app.use(
+  cors({
+    origin: 'https://fiverr-clone-frontend-eyia7ewnf-zenodavids.vercel.app/',
+    credentials: true,
+  })
+);
 
 // Parse incoming JSON data
 app.use(express.json());
