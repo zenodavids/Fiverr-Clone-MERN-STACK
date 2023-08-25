@@ -69,8 +69,7 @@ const CheckoutForm = () => {
       elements,
       confirmParams: {
         // Change this to your payment completion page
-        return_url:
-          'https://fiverr-clone-frontend-eyia7ewnf-zenodavids.vercel.app/success',
+        return_url: 'https://fiverr-clone-frontend.vercel.app/success',
       },
     });
 

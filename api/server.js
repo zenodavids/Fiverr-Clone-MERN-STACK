@@ -35,7 +35,7 @@ const connect = async () => {
 // "'http://localhost:5173'" is the frontend local host domain
 app.use(
   cors({
-    origin: 'https://fiverr-clone-frontend-eyia7ewnf-zenodavids.vercel.app/',
+    origin: 'https://fiverr-clone-frontend.vercel.app',
     credentials: true,
   })
 );
